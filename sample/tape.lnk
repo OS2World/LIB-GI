@@ -1,0 +1,19 @@
+FORMAT OS2 FLAT PM
+NAME SAMPLE\TAPE.EXE
+OPTION MAP=SAMPLE\TAPE.MAP
+OPTION DESCRIPTION '@#OS2World:1.01#@TAPE 1.01 - GI tape control by Roman Fischer (Open Watcom 2)'
+OPTION VERSION=2.0
+IMPORT _modeflag tapedev.1
+IMPORT _stoponover tapedev.2
+IMPORT _event tapedev.3
+IMPORT _filename tapedev.4
+IMPORT _cfgpresent tapedev.5
+IMPORT _globhwnd tapedev.6
+IMPORT _count tapedev.7
+FILE DLL\TAPE.OBJ
+FILE DLL\PMTHREAD.OBJ
+FILE DLL\ERROR.OBJ
+FILE DLL\THREAD.OBJ
+LIBRARY PLIB3R.LIB
+LIBRARY CLIB3R.LIB
+LIBRARY OS2386.LIB

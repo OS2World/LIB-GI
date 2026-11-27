@@ -1,0 +1,5 @@
+system os2v2
+name DLL\ENTRY16.EXE
+file DLL\ENTRY16.OBJ
+library clib3r.lib
+library os2386.lib
