@@ -1,0 +1,7 @@
+# Open Watcom intermediate output and host Python bytecode
+ow2/obj/
+ow2/__pycache__/
+ow2/*.bak
+ow2/*.dll
+ow2/*.exe
+ow2/*.lib
